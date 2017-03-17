@@ -3,7 +3,7 @@ FROM debian:latest
 MAINTAINER Hans Hoechtl <hhoechtl@1drop.de>
 
 # Define rancher compose version
-ENV RANCHER_COMPOSE_VERSION v0.9.2
+ENV RANCHER_COMPOSE_VERSION v0.12.3
 
 # Download and install rancher compose
 RUN apt-get -yqq update && \
